@@ -6,7 +6,7 @@ Fork from https://github.com/mpvkit/MPVKit
 # ass, dav1d, dovi, ffmpeg, freetype, fribidi
 # harfbuzz, littlecms2, mbedtls, mpv, placebo
 # shaderc, spirvcross, uchardet, unibreak, vulkan
-./gradlew assemble[$component_name]
+./gradlew assemble $component_name
 ```
 
 ## Components
