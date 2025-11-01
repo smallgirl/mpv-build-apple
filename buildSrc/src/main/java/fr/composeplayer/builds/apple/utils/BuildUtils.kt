@@ -144,7 +144,7 @@ val Platform.isysroot: String
 
 val Platform.minVersion: String
   get() = when (this) {
-    Platform.ios, Platform.isimulator -> "13.0"
+    Platform.ios, Platform.isimulator -> "11.0"
     Platform.macos -> "11.0"
   }
 val Platform.osVersionMin: String
